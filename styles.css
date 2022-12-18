@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 243, 250);
+}
+
+/*nav section styling*/
+nav {
+    height: 64px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navItems {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otherLinks {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*header section styling*/
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.headerItems {
+    width: 80%;
+    height: fit-content;
+    max-width: 1200px;
+    margin-top: 25%;
+    border: solid 2px black;
+    text-align: center;
+}
