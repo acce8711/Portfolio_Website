@@ -25,11 +25,14 @@
             <div class="homePageLink">
                 <a href="index.html">Amina Al-Helali</a>
             </div>
-            <div class="otherLinks">
-                <a href="#">Portfolio</a>
-                <a href="#">Resume</a>
-                <a href="#">LinkedIn</a>
-            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="otherLinks" id="otherLinks">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -37,9 +40,14 @@
         <div class="headerItems">
             <div class="aboutMe">
                 <h1>Hello, my name is Amina.</h1>
-                <h1>I'm an Interactive Multimedia and Design student.</h1>
+                <h1>I'm an <span class="autoType"></span></h1>
             </div>
-            <img src="images/VerticalArrow.svg" id="verticalArrow" alt="icon of vertical arrow">
+            <a href="#UI/UxWebDev" id="verticalArrow">
+                <svg width="24" height="66" viewBox="0 0 24 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.9393 65.0607C11.5251 65.6464 12.4749 65.6464 13.0607 65.0607L22.6066 55.5147C23.1924 54.9289 23.1924 53.9792 22.6066 53.3934C22.0208 52.8076 21.0711 52.8076 20.4853 53.3934L12 61.8787L3.51472 53.3934C2.92893 52.8076 1.97919 52.8076 1.3934 53.3934C0.807614 53.9792 0.807614 54.9289 1.3934 55.5147L10.9393 65.0607ZM10.5 6.55671e-08L10.5 64L13.5 64L13.5 -6.55671e-08L10.5 6.55671e-08Z" fill="black" id="verticalArrowColour"/>
+                    </svg>                    
+            </a>
+            
         </div>
     </section>
 
@@ -49,7 +57,6 @@
         
 
         <div class="workItems">
-            <hr>
             <h2 class="sectionTitle"> UI / UX and Web Dev</h2>
 
             <div class="pieces">
@@ -60,7 +67,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">EZ PZ CONVERTER</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>UX / UI</p> </div>
@@ -71,7 +78,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>                                        
                                 </div>
                             </a>
                         </div>
@@ -84,7 +93,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">CLEANLY</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>UX / UI</p> </div>
@@ -94,7 +103,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -107,7 +118,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">OTTAWA GARBAGE AND RECYCLING</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>UX / UI</p> </div>
@@ -117,7 +128,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -130,7 +143,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">MINI DESIGN CHALLENGES</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>UX / UI</p> </div>
@@ -141,7 +154,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -169,7 +184,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">THE REVALIE - LANDING PAGE VIDEO</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>Filming</p> </div>
@@ -180,7 +195,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -193,7 +210,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">SABON POSTER</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>Graphic Design</p> </div>
@@ -203,7 +220,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -216,7 +235,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">10 000 FEET DOWN</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>Illustration</p> </div>
@@ -227,7 +246,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -240,7 +261,7 @@
                     <div class="desc">
                         <div class="descItems">
                             <h3 class="pieceTitle">MURAL DESIGN</h3>
-                            <hr>
+                            <hr class="pieceHorizontalLine">
                             <!--list of skills used for project-->
                             <div class="pieceSkills">
                                 <div class="skill"> <p>Graphic Design</p> </div>
@@ -250,7 +271,9 @@
                             <a href="#" class="pieceLink">
                                 <div class="pieceLinkContent">
                                     <h3 class="learnMore">Learn More</h3>
-                                    <img src="images/HorizontalArrowShort.svg" alt="horizontal arrow icon">
+                                    <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                        </svg>  
                                 </div>
                             </a>
                         </div>
@@ -263,19 +286,16 @@
         </div>
     </section>
 
-    
-    <hr id="footerLine">
-
     <footer>
         <div class="footerItems">
             
             <!--contact and social information-->
             <div class="socialInfo">
                 <h2>Let's get in touch!</h2>
-                <a href = "mailto: amina.ottawa@gmail.com">amina.ottawa@gmail.com</a>
+                <a id="email" href = "mailto: amina.ottawa@gmail.com">amina.ottawa@gmail.com</a>
                 <div class="iconLinks">
-                    <a href="#"><img src="#" class="socialIcon" alt="icon of the GitHub logo"></a>
-                    <a href="#"><img src="#" class="socialIcon" alt="icon of the Linkedin logo"></a>
+                    <a href="#"><img src="images/gitHubLogo.png" class="socialIcon" alt="icon of the GitHub logo"></a>
+                    <a href="#"><img src="images/linkedinLogo.png" class="socialIcon" alt="icon of the Linkedin logo"></a>
                 </div>
             </div>
 
@@ -286,6 +306,12 @@
             </div>
         </div>
     </footer>
+
+
+    <!--linking javascript files-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

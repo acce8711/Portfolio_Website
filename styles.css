@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Outfit', sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,7 +8,11 @@
 }
 
 body {
-    background-color: rgb(235, 243, 250);
+    background-color: #FEFEFE;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, p, a {
@@ -31,11 +34,13 @@ h3 {
 
 p {
     font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
 }
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 /*nav section styling*/
@@ -44,7 +49,7 @@ nav {
     background-color: transparent;
     display: flex;
     justify-content: center;
-
+    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
 }
 
 .navItems {
@@ -52,13 +57,22 @@ nav {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
 .otherLinks {
+    list-style: none;
     width: 250px;
     display: flex;
     justify-content: space-between;
+}
+
+.navItems a {
+    transition: color 0.25s linear;
+}
+
+.navItems a:hover {
+    color: #365BBA;
 }
 
 /*header section styling*/
@@ -66,6 +80,7 @@ nav {
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
 }
 
 .headerItems {
@@ -77,14 +92,28 @@ nav {
     align-items: center;
 }
 
+
+/*About me section*/
 .aboutMe {
     margin-top: 30%;
     width: 100%;
-    border: solid 2px black;
     text-align: center;
 }
 
+.typed-cursor {
+    display: none;
+}
 
+.autoType {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    color: #365BBA;
+}
+
+#verticalArrowColour {
+    fill: rgb(13, 27, 23);
+    transition: fill 0.25s linear;
+}
 
 #verticalArrow {
     margin-bottom: 15%;
@@ -97,16 +126,14 @@ nav {
 @keyframes upDown {
     0%, 100% {
       margin-bottom: 15%;
-      fill: aqua;
     }
     50% {
       margin-bottom: 17%;
     }
   }
 
-#verticalArrow:hover {
-    opacity: 70%;
-    transition: 0.25;
+#verticalArrow:hover #verticalArrowColour {
+    fill: #365BBA;
 }
 
 /*UI / Ui and Web Dev section styling*/
@@ -122,7 +149,7 @@ nav {
 }
 
 .sectionTitle {
-    margin: 50px 0 50px 0;
+    margin: 75px 0 75px 0;
 }
 
 .pieces {
@@ -133,7 +160,7 @@ nav {
 
 
 #otherWork {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 
@@ -152,39 +179,46 @@ nav {
     gap: 20px;
 }
 
+
+.pieceHorizontalLine {
+    opacity: 50%;
+}
+
 .skill {
-    background-color: rgb(255, 255, 255);
+    background-color:#dee7ff;
     padding: 3px 15px;
     border-radius: 5px;
+    color:#365BBA;
+}
+
+#horizontalArrowColor {
+    fill: #365BBA;
+    
 }
 
 .pieceLinkContent {
     padding: 15px 40px 15px 0;
     display: flex;
+    align-items: center;
     gap: 10px;
-    border: solid 2px black;
-    color: black;
+    color: #365BBA;
 }
 
 .pieceLinkContent {
-    transition: gap 0.4s linear, color 0.4s linear;
+    transition: gap 0.4s linear
 }
 
 .pieceLinkContent:hover {
     gap: 30px;
-    color: rgb(102, 102, 102);
 }
 
-
-/*footer styling*/
-#footerLine {
-    margin-top: 150px;
-}
 
 footer {
-    height: 300px;
+    margin-top:250px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
 }
 
 .footerItems {
@@ -194,15 +228,29 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0 25px 0;
+    margin: 75px 0 25px 0;
 }
 
 .socialInfo {
     text-align: center;
-    height: 100px;
+    height: 175px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#email {
+    color: #365BBA;
+}
+
+.iconLinks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socialInfo img {
+    width: 40px;
 }
 
 .copyrightInfo {
@@ -220,11 +268,22 @@ footer {
     h2 {
         font-size: 24px;
     }
-    
-    body {
-        background-color: azure;
+
+    h3 {
+        font-size: 20px;
     }
 
+    .navItems {
+        width: 90%;
+    }
+
+    .headerItems {
+        width: 90%;
+    }
+
+    .workItems {
+        width: 90%;
+    }
 
     .sectionTitle {
         text-align: center;
@@ -236,6 +295,10 @@ footer {
         gap: 100px;
     }
 
+    #horizontalArrowColor {
+        fill: #dee7ff;
+    }
+
     .pieceLinkContent {
         margin-top: 30px;
         padding: 15px 0 15px 0;
@@ -243,23 +306,41 @@ footer {
         gap: 10px;
         justify-content: center;
         border: none;
-        color: black;
-        background-color: rgb(148, 123, 123);
+        background-color:#365BBA;
         border-radius: 5px;
+        color: #dee7ff;
     }
 
     .pieceLinkContent {
         transition: gap 0.4s linear, background-color 0.25s linear;
-    }
-    
-    .pieceLinkContent:hover {
-        gap: 30px;
-        color: black;
-        background-color: rgb(183, 183, 209);
     }
 
     #otherWork {
         margin-top: 100px;
     }
     
+    .footerItems {
+        width: 90%;
+    }
+
+    .copyrightInfo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    #verticalArrow {
+        margin-bottom: 21%;
+    }
+
+    @keyframes upDown {
+        0%, 100% {
+          margin-bottom: 21%;
+        }
+        50% {
+          margin-bottom: 23%;
+        }
+      }
 }
