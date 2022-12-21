@@ -56,6 +56,7 @@ nav {
     width: 80%;
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;  
 }
@@ -68,12 +69,23 @@ nav {
 }
 
 .navItems a {
-    transition: color 0.25s linear;
+    transition: color 0.25s linear, opacity 0.25s linear;
 }
 
 .navItems a:hover {
     color: #365BBA;
 }
+
+#hamburgerMenuColour {
+    transition: fill 0.25s linear;
+}
+
+.hamburger {
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
 
 /*header section styling*/
 .header {
@@ -98,6 +110,12 @@ nav {
     margin-top: 30%;
     width: 100%;
     text-align: center;
+}
+
+.aboutMe p {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .typed-cursor {
@@ -277,8 +295,15 @@ footer {
         width: 90%;
     }
 
+
     .headerItems {
         width: 90%;
+    }
+
+    .aboutMe p {
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .workItems {
@@ -330,17 +355,60 @@ footer {
         gap: 20px;
     }
 
-
-    #verticalArrow {
-        margin-bottom: 21%;
+    .otherLinks {
+        display: none;
+        animation: slide-in 0.5s ease-in-out;
     }
 
-    @keyframes upDown {
-        0%, 100% {
-          margin-bottom: 21%;
+    .otherLinks a{
+        color:#dee7ff;
+    }
+
+    .hamburger {
+        display: block;
+        background: url("images/hamburgerMenu.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 22px;
+        z-index: 9999;
+    }
+
+    .hamburger.show {
+        background: url("images/hamburgerMenuLight.svg");
+        position: fixed;
+        left: 90%;
+    }
+
+    .otherLinks.show {
+        display: flex;
+        position: fixed;
+        inset: 0 0 0 30%;
+        width: auto;
+        flex-direction: column;
+        justify-content: start;
+        padding: min(30vh, 10rem) 3em;
+        gap: 2em;
+        background: #365BBA;
+        color: #FEFEFE;
+        z-index: 1000;
+        animation: slide-out 0.5s ease-in-out;
+        transform: translateX(0%);
+    }
+
+    .navItems a:hover {
+        opacity: 70%;
+        color: #dee7ff;
+    }
+
+    
+    @keyframes slide-out {
+        0%{
+            transform: translateX(100%);
         }
-        50% {
-          margin-bottom: 23%;
+        100% {
+            transform: translateX(0%);
         }
       }
+      
+
 }
