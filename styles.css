@@ -475,6 +475,11 @@ footer {
     max-width: 800px;
 }
 
+.info img {
+    width: 100%;
+    margin-top: 25px;
+}
+
 
 
 .sideKey {
@@ -502,6 +507,18 @@ footer {
 .sideKey img {
     width: 40%;
     aspect-ratio: 1;
+}
+
+#styleGuide {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#styleGuide img{
+    filter: drop-shadow(0 4px 2px hsla(0, 0%, 0%, 0.24));
+    margin-top: 0;
 }
 
 #finalWebsiteLink {
