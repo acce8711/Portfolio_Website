@@ -34,7 +34,7 @@ h3 {
 
 p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 25px;
     font-weight: 400;
 }
 
@@ -211,10 +211,9 @@ nav {
 
 #horizontalArrowColor {
     fill: #365BBA;
-    
 }
 
-.pieceLinkContent {
+.pieceLinkContent, #finalWebsiteLink {
     padding: 15px 40px 15px 0;
     display: flex;
     align-items: center;
@@ -222,11 +221,11 @@ nav {
     color: #365BBA;
 }
 
-.pieceLinkContent {
+.pieceLinkContent, #finalWebsiteLink {
     transition: gap 0.4s linear
 }
 
-.pieceLinkContent:hover {
+.pieceLinkContent:hover, #finalWebsiteLink:hover {
     gap: 30px;
 }
 
@@ -342,7 +341,7 @@ footer {
         fill: #dee7ff;
     }
 
-    .pieceLinkContent {
+    .pieceLinkContent, #finalWebsiteLink {
         margin-top: 30px;
         padding: 15px 0 15px 0;
         display: flex;
@@ -368,8 +367,11 @@ footer {
 
     .copyrightInfo {
         display: flex;
-        width: 100%;
+        
         flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
         gap: 20px;
     }
 
@@ -428,5 +430,113 @@ footer {
         }
       }
       
+
+}
+
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionItems {
+    width: 80%;
+    max-width: 1200px;
+}
+
+#heroImage {
+    width: 100%;
+    margin-top: 75px;
+}
+
+.pieceInfo {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-top: 75px;
+}
+
+.stage {
+    background-color:#dee7ff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    color:#365BBA;
+    width: fit-content;
+}
+
+.info h2 {
+    margin: 25px 0;
+}
+
+.info p {
+    max-width: 800px;
+}
+
+
+
+.sideKey {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sideKey2 {
+    flex-direction: row-reverse;
+}
+
+.sideKey h2 {
+    margin: 0 0 25px 0;
+}
+
+
+.sideKey p {
+    max-width: 500px;
+}
+
+.sideKey img {
+    width: 40%;
+    aspect-ratio: 1;
+}
+
+#finalWebsiteLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.takeaways {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .pieceInfo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 800px)  {
+    .sideKey {
+        flex-direction: column;
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    .sideKey img {
+        width: 100%;
+    }
+
+    .descriptionItems {
+        width: 90%;
+    }
 
 }
