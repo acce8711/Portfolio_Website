@@ -16,7 +16,6 @@ const otherLinks = document.getElementById("otherLinks");
 hamburger.addEventListener("click", () => {
     otherLinks.classList.toggle("show");
     hamburger.classList.toggle("show");
-    openNav();
 })
 
 
