@@ -191,7 +191,7 @@ nav {
     margin: 18px 0 18px 0;
 }
 
-.pieceSkills .stage{
+.pieceSkills, .stage{
     margin: 15px 0 15px 0;
     display: flex;
     gap: 20px;
@@ -509,6 +509,10 @@ footer {
     aspect-ratio: 1;
 }
 
+.sideKey3 img {
+    width: 50%;
+}
+
 #styleGuide {
     margin-top: 25px;
     display: grid;
@@ -539,6 +543,7 @@ footer {
     gap: 10px;
     padding-left:30px;
 }
+
 
 @media only screen and (max-width: 850px) {
     .pieceInfo {
