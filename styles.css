@@ -544,6 +544,10 @@ footer {
     padding-left:30px;
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
 
 @media only screen and (max-width: 850px) {
     .pieceInfo {
