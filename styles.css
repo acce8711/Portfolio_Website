@@ -513,14 +513,18 @@ footer {
     width: 50%;
 }
 
-#styleGuide {
+#styleGuide, .columnImg3 {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
 
-#styleGuide img{
+.columnImg3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#styleGuide img, .columnImg3 img{
     filter: drop-shadow(0 4px 2px hsla(0, 0%, 0%, 0.24));
     margin-top: 0;
 }
@@ -547,6 +551,11 @@ footer {
 iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
+}
+
+.pdfViewer {
+    width: 100%;
+    aspect-ratio: 8 / 10;
 }
 
 @media only screen and (max-width: 850px) {
