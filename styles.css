@@ -286,6 +286,8 @@ footer {
     justify-content: space-between;
 }
 
+
+
 @media only screen and (max-width: 800px) {
 
     h1 {
@@ -577,6 +579,32 @@ iframe {
     aspect-ratio: 8 / 10;
 }
 
+.moreProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreProjectsItems {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 200px;
+}
+
+.moreProjectsItems h2 {
+    margin: 75px 0 75px 0;
+}
+
+.moreProjectsImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.moreProjectsImages img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 850px) {
     .pieceInfo {
         flex-direction: column;
@@ -601,3 +629,4 @@ iframe {
     }
 
 }
+
