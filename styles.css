@@ -49,7 +49,7 @@ nav {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
+    background-color: #dee7ff;
 }
 
 .navItems {
@@ -89,10 +89,10 @@ nav {
 
 /*header section styling*/
 .header {
-    height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
+    background-color: #dee7ff;
 }
 
 .headerItems {
@@ -100,14 +100,13 @@ nav {
     max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 
 /*About me section*/
 .aboutMe {
-    margin-top: 20%;
     width: 100%;
     text-align: center;
 }
@@ -238,7 +237,7 @@ footer {
     height: 400px;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, #FFE6D8 , #F7EEFF);
+    background-color: #dee7ff;
 }
 
 .footerItems {
