@@ -1,10 +1,14 @@
 
-/*typing header text on page load*/
-var typed = new Typed(".autoType", {
-    strings: ["Interactive Multimedia and Design Student."],
-    typeSpeed: 75,
-    loop: false
-});
+var url = window.location.pathname;
+var filename = url.substring(url.lastIndexOf('/')+1);
+if (filename == "index.html") {
+    /*typing header text on page load*/
+    var typed = new Typed(".autoType", {
+        strings: ["Interactive Multimedia and Design Student."],
+        typeSpeed: 75,
+        loop: false
+    });
+}
 
 
 //hamburger menu

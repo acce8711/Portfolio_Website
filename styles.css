@@ -76,6 +76,14 @@ nav {
     color: #365BBA;
 }
 
+.navIcon {
+    transition: fill 0.25s linear, opacity 0.25s linear;
+}
+
+.navIcon:hover {
+    fill: #365BBA;
+}
+
 #hamburgerMenuColour {
     transition: fill 0.25s linear;
 }
@@ -386,6 +394,10 @@ footer {
         color:#dee7ff;
     }
 
+    .navIcon {
+        fill: #dee7ff;
+    }
+
     .hamburger {
         display: block;
         background: url("images/hamburgerMenu.svg");
@@ -417,9 +429,10 @@ footer {
         transform: translateX(0%);
     }
 
-    .navItems a:hover {
+    .otherLinks a:hover, .navIcon:hover  {
         opacity: 70%;
         color: #dee7ff;
+        fill: #dee7ff;
     }
 
     
@@ -508,7 +521,7 @@ footer {
 
 .sideKey img {
     width: 40%;
-    aspect-ratio: 1;
+    height: 100%;
 }
 
 .sideKey3 img {
@@ -520,6 +533,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+}
+
+.mockupTitle {
+    text-align: center;
 }
 
 .columnImg3 {
