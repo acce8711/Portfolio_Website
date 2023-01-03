@@ -10,6 +10,7 @@ if (filename == "index.html") {
     });
 }
 
+alert(filename);
 
 //hamburger menu
 //tutorial used: https://www.youtube.com/watch?v=ydZc17rlR5E
