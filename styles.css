@@ -63,7 +63,7 @@ nav {
 
 .otherLinks {
     list-style: none;
-    width: 350px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
