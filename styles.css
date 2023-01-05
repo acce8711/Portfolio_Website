@@ -287,6 +287,36 @@ footer {
 }
 
 
+.aboutMe {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMeItems {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.aboutMeContent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 75px;
+    margin-top: 75px;
+}
+
+.aboutMeContent h2 {
+    color: #365BBA;
+    margin-bottom: 25px;
+}
+
+#aboutMeImg {
+    width: 100%;
+    border-radius: 600px;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -437,7 +467,25 @@ footer {
         fill: #dee7ff;
     }
 
-    
+    .aboutMeItems {
+        width: 90%;
+      }
+
+    .aboutMeContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+      #aboutMeImg {
+        width: 50%;
+    }
+
+    .aboutMeText {
+        text-align: center;
+    }
+
     @keyframes slide-out {
         0%{
             transform: translateX(100%);
@@ -446,6 +494,7 @@ footer {
             transform: translateX(0%);
         }
       }
+      
       
 
 }
