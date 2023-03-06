@@ -184,7 +184,8 @@ nav {
 }
 
 .heroImgLink:hover img {
-    opacity: 70%;
+    opacity: 60%;
+    transition: 0.25s;
 }
 
 #otherWork {
@@ -207,6 +208,9 @@ nav {
     gap: 20px;
 }
 
+.pieceLink{
+    display: none;
+}
 
 .pieceHorizontalLine {
     opacity: 50%;
@@ -377,6 +381,10 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 100px;
+    }
+
+    .pieceLink{
+        display: block;
     }
 
     #horizontalArrowColor {
