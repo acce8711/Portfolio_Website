@@ -202,6 +202,11 @@ nav {
     margin: 18px 0 18px 0;
 }
 
+.productTitleLink:hover {
+    color:#365BBA;
+    text-decoration: underline;
+}
+
 .pieceSkills, .stage{
     margin: 15px 0 15px 0;
     display: flex;
