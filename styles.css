@@ -667,6 +667,18 @@ iframe {
     width: 100%;
 }
 
+.threeColImg {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.dropShadow {
+    filter: drop-shadow(0 4px 2px hsla(0, 0%, 0%, 0.24));
+}
+
+
 @media only screen and (max-width: 850px) {
     .pieceInfo {
         flex-direction: column;
