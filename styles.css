@@ -183,7 +183,7 @@ nav {
     grid-gap: 10%;
 }
 
-.heroImgLink:hover img {
+.heroImgLink:hover img, .hover:hover {
     opacity: 60%;
     transition: 0.25s;
 }
