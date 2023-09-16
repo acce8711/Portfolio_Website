@@ -38,6 +38,10 @@ p {
     font-weight: 400;
 }
 
+u:hover {
+    color: #365BBA;
+}
+
 a {
     text-decoration: none;
     color: #000000;
