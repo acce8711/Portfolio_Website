@@ -682,11 +682,19 @@ iframe {
     filter: drop-shadow(0 4px 2px hsla(0, 0%, 0%, 0.24));
 }
 
+.maxGif {
+    max-width: 450px;
+}
+
 
 @media only screen and (max-width: 850px) {
     .pieceInfo {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .maxGif {
+        max-width: 100%;
     }
 
 }
@@ -706,5 +714,8 @@ iframe {
         width: 90%;
     }
 
+    .maxGif {
+        max-width: 100%;
+    }
 }
 
