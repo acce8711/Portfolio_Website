@@ -176,7 +176,6 @@ nav {
 .workItems {
     width: 80%;
     max-width: 1200px;
-    min-height: max-content;
 }
 
 .sectionTitle {
@@ -186,7 +185,10 @@ nav {
 .pieces {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10%;
+    grid-auto-rows: minmax(450px, auto);
+    grid-gap: 100px;
+    min-height: 100%;
+    
 }
 
 .heroImgLink:hover img, .hover:hover {
@@ -196,6 +198,12 @@ nav {
 
 
 /*Individual piece styling*/
+
+.pieceItem
+{
+    min-height: fit-content;
+}
+
 .pieceImage {
     width: 100%;
 }
