@@ -170,11 +170,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .workItems {
     width: 80%;
     max-width: 1200px;
+    overflow: auto;
+    
 }
 
 .sectionTitle {
@@ -190,10 +193,6 @@ nav {
 .heroImgLink:hover img, .hover:hover {
     opacity: 60%;
     transition: 0.25s;
-}
-
-#otherWork {
-    margin-top: 400px;
 }
 
 
@@ -380,6 +379,7 @@ footer {
 
     .workItems {
         width: 90%;
+        margin-bottom: 400px;
     }
 
     .sectionTitle {
@@ -416,10 +416,7 @@ footer {
         transition: gap 0.4s linear, background-color 0.25s linear;
     }
 
-    #otherWork {
-        margin-top: 100px;
-    }
-    
+
     .footerItems {
         width: 90%;
     }

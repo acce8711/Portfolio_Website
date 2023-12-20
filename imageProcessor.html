@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processor</title>
+
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation section-->
+    <nav class="topNav">
+        <div class="navItems">
+            <div class="homePageLink">
+                <a href="index.html">Amina Al-Helali</a>
+            </div>
+            <button aria-controls="otherLinks" aria-expanded="false" class="hamburger" id="hamburger">
+                <span></span>
+            </button>
+
+            <ul class="otherLinks" id="otherLinks">
+                <li><a href="index.html#UI/UxWebDev">Portfolio</a></li>
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="images/AminaAl-Helali_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" class="navIcon"/></svg>
+                </a></li>
+                <li><a href="https://github.com/acce8711" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" class="navIcon"/></svg>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="description">
+        <div class="descriptionItems">
+
+            <img src="images/imageProcessor/ImageProcessor_hero.png" alt="placeholder image" id="heroImage">
+
+            <div class="pieceInfo">
+                <div class="team">
+                    <h3>Solo Project</h3>
+                    <p>UI Designer</p>
+                    <p>Programmer</p>
+                </div>
+                <div class="role">
+                    <h3>My Role</h3>
+                    <p>Front end developer</p>
+                    <p>UX / UI Designer</p>
+                </div>
+                <div class="tools">
+                    <h3>Tools</h3>
+                    <p>Figma</p>
+                    <p>OpenFrameworks</p>
+                    <p>C++</p>
+                    <p>Visual Studio</p>
+                </div>
+                <div class="timeline">
+                    <h3>Timeline</h3>
+                    <p>2 weeks (Fall 2023)</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>OVERVIEW</p> </div>
+                <h2>Concept</h2>
+                <p>Overview
+                   I worked on this project for my sensor interactions class.
+                    We had to make image processing software using OpenFrameworks. 
+                    We were encouraged to create our own custom UI and explore crafting filters by manipulating pixel RGB values and using LUT tables. 
+                    The image processor allows image loading and saving, filtering, and colour picking! </p>
+                <div class="info finalWebsite">
+                    <div class="info">
+                        <div class="stage"> <p>VIDEO</p> </div>
+                        <h2>Demo</h2>
+                        <iframe src="https://www.youtube.com/embed/34vZ4Tf_Wsc?si=kxoA7fx0RZqmQPD7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+           
+            <div class="info">
+            <div class="stage"> <p>KEY FEATURES</p> </div>
+            <div class="sideKey sideKey2 sideKey3">
+                <img src="images/imageProcessor/imageProcessor_imageLoadSave.gif" class="maxGif" alt="">
+                <div class="sideKeyInfo2">
+                    <h2>Load and save images</h2>
+                    <p>Load images to edit and save them anywhere on your desktop.</p>
+                </div>
+            </div>
+            <div class="sideKey sideKey3">
+                <img src="images/imageProcessor/imageProcessor_filters.gif" class="maxGif" alt="">
+                <div class="sideKeyInfo2">
+                    <h2>Apply adjustments and filters</h2>
+                    <p>Choose from 5 adjustments and 4 filters to edit your image. 
+                    </p>
+                </div>
+            </div>
+            <div class="sideKey sideKey2 sideKey3">
+                <img src="images/imageProcessor/imageProcessor_colourPicker.gif" class="maxGif" alt="">
+                <div class="sideKeyInfo">
+                    <h2>Sample colours</h2>
+                    <p>Hover over any area on the application to sample a colour with its hex value.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <div class="info">
+                <div class="stage"> <p>REFLECTION</p> </div>
+                <div class="infoSub">
+                    <h2>Takeaways</h2>
+                    <div class="takeaways">
+                        <p><strong>Implementing UI in OpenFrameworks is more difficult than in web. </strong>  
+                        I'm used to creating UI for the web, where it's usually fast and simple.
+                         However, building it from scratch in OpenFrameworks turned out to be a more time-consuming process. 
+                         You have to handle things like creating your own event handlers and carefully consider every detail. 
+                         Going through this made me realize how much I appreciate HTML and CSS managing all those details. 
+                         </p>
+
+                        <p><strong>Learned where to find OpenFrameworks resources.</strong>   
+                        This was my second time using OpenFrameworks, and I noticed that finding documentation was trickier compared to other tools and languages.
+                        Luckily, my professor suggested checking out the openFrameworks examples folder included in the download.
+                        It turned out to be a super useful source, especially for this project and now I've got a go-to resource for future projects!</p>
+                    </div>
+                </div>
+
+                <div class="infoSub">
+                    <h2>Next Steps</h2>
+                    <p><strong>Exploring complex filters.</strong>
+                        I focused a lot on making a custom UI, which didn't leave me with much time to play around with different filters. 
+                        My next step would be to try spatial transformation filters that manipulate pixel positions and not just their RGB values.
+                    </p>
+                    <p><strong>Adding history.</strong>  
+                        Right now, the adjustments and filters I apply just replace each other, affecting only the original image. 
+                        My next step would be to figure out how to blend these filters and keep a history of changes. 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </section>
+
+    <section class="moreProjects">
+        <div class="moreProjectsItems">
+            <hr>
+            <h2>More Projects</h2>
+            <div class="moreProjectsImages">
+                <a class="heroImgLink" href="piecePage.html">
+                    <img src="images/EZPZ/heroEZPZ.png" alt="image of the EZPZ device mockup">
+                </a>
+                <a class="heroImgLink" href="piecePage2.html">
+                    <img src="images/cleanly/heroCleanly-min.png" alt="image of the cleanly mockup">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footerItems">
+            
+            <!--contact and social information-->
+            <div class="socialInfo">
+                <h2>Let's get in touch!</h2>
+                <a id="email" href = "mailto: amina.ottawa@gmail.com">amina.ottawa@gmail.com</a>
+                <div class="iconLinks">
+                    <a href="https://github.com/acce8711" target="_blank"><img src="images/gitHubLogo.png" class="socialIcon" alt="icon of the GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank"><img src="images/linkedinLogo.png" class="socialIcon" alt="icon of the Linkedin logo"></a>
+                </div>
+            </div>
+
+            <!--copyright information-->
+            <div class="copyrightInfo">
+                <p>© Amina Al-Helali</p>
+                <p>Website developed and designed by Amina Al-Helali</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!--linking javascript files-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
