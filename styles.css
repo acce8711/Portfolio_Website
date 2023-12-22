@@ -196,7 +196,9 @@ nav {
     transition: 0.25s;
 }
 
-
+.empty {
+    height: 70px;
+}
 /*Individual piece styling*/
 
 .pieceItem
