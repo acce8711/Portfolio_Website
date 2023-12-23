@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Day</title>
+
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation section-->
+    <nav class="topNav">
+        <div class="navItems">
+            <div class="homePageLink">
+                <a href="index.html">Amina Al-Helali</a>
+            </div>
+            <button aria-controls="otherLinks" aria-expanded="false" class="hamburger" id="hamburger">
+                <span></span>
+            </button>
+
+            <ul class="otherLinks" id="otherLinks">
+                <li><a href="index.html#UI/UxWebDev">Portfolio</a></li>
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="images/AminaAl-Helali_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" class="navIcon"/></svg>
+                </a></li>
+                <li><a href="https://github.com/acce8711" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" class="navIcon"/></svg>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="description">
+        <div class="descriptionItems">
+
+            <img src="images/spaceGame/spaceGame_heroPage.png" alt="placeholder image" id="heroImage">
+
+            <div class="pieceInfo">
+                <div class="team">
+                    <h3>Team</h3>
+                    <p>Emma Souannhaphanh</p>
+                </div>
+                <div class="role">
+                    <h3>My Role</h3>
+                    <p>Controller Builder</p>
+                    <p>Co-programmer</p>
+                    <p>UI Designer</p>
+                </div>
+                <div class="tools">
+                    <h3>Tools</h3>
+                    <p>C++</p>
+                    <p>OpenFrameworks</p>
+                    <p>Arduino</p>
+                    <p>Figma</p>
+                </div>
+                <div class="timeline">
+                    <h3>Timeline</h3>
+                    <p>4 weeks (Fall 2023)</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>OVERVIEW</p> </div>
+                <h2>Concept</h2>
+                <p>This project was completed as a group project for a sensor interactions class. 
+                    The task was to build an alternative controller using Arduino and develop a game 
+                    for it in OpenFrameworks. We came up with a space game featuring two wearable 
+                    controllers strapped onto players' thighs. The controllers determine the speed 
+                    and angle of the spaceship inside the game. They also contain physical feedback 
+                    such as LEDs and vibration motors. The game itself is an endless 2D runner style 
+                    game where the player collects stars and avoids rocks. 
+                </p>
+                    <div class="info finalWebsite">
+                        <div class="info">
+                            <div class="stage"> <p>VIDEO</p> </div>
+                            <h2>Demo</h2>
+                            <iframe src="https://www.youtube.com/embed/iCurP-sJXSc?si=m_vEv-sgdw749HH-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>DEFINE</p> </div>
+                <h2>A controller with a simple mechanic</h2>
+                <p>At the start, brainstorming ideas was a bit tricky, so we checked out other alternative controllers
+                     for inspiration. What stood out to us was that the ones we liked had a simple, satisfying
+                      mechanic resembling a real-world action. We decided to build our controller around this
+                       concept especially considering our limited time frame.</p>   
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>IDEATE</p> </div>
+                <h2>Visualising the concept</h2>
+                <p>We decided to centre our controller around a single mechanic: <strong>moving a lever forward and backward</strong>. 
+                    This choice is all about immersing players in the game, giving them 
+                    that machinery feel as if they're actually controlling a spaceship.  
+                    We also added in <strong>button pressing</strong> for launching projectiles at rocks. 
+                    I then created some <strong>sketches</strong> to better visualise our ideas. </p>
+                <br>
+                <img src="images/spaceGame/spaceGame_sketches.png" alt="sketches of game controller concepts">
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>PROTOTYPING</p> </div>
+                <h2>Would the idea actually work?</h2>
+                <p>We were a bit worried about the practicality of wearable controllers, 
+                    thinking they might move around too much while players operated the levers. 
+                    To put our concerns to the test, I made a simple prototype using some cardboard 
+                    and other household items to test out the movement of the controller. 
+                    We had several users try it on and move the lever. To our relief, 
+                    the movement worked smoothly, and the controller stayed put on the players' 
+                    thighs.</p>
+                    <br>
+                <img src="images/spaceGame/spaceGame_prototype.gif" alt="gif of a controller prototype in action">
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>DESIGN</p> </div>
+                <h2>1. Building the controller</h2>
+                <p>We started off with building the controller by setting up the wiring for the
+                     Arduino and enclosing it in a cardboard box. We used two IR sensors, two LED’s, 
+                     and two vibration motors. We also connected the Arduino to Firmata in 
+                     OpenFrameworks to test the sensors and filter out any noise. </p>
+                <br>
+                <img src="images/spaceGame/spaceGame_process.png" alt="controller building process">
+
+                <h2>2. Programming the game</h2>
+                <p>As we were building the controller, we also programmed the game at the same time.  
+                    We programmed the basic movement of the spaceship, projectile shooting, and star collection.</p>
+            
+                <h2>3. Connecting the controller to the game</h2>
+                <p>Once the controller was done, it was time to connect it to the game.
+                     We implemented the Firmata code that we used for testing the controller with the game code.</p>
+                <img src="images/spaceGame/spaceGame_gameplay.gif" alt="gameplay of controller with the game">
+            
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>GAMEPLAY</p> </div>
+                <div class="sideKey sideKey2 sideKey3">
+                    <img src="images/spaceGame/spaceGame_leftLever.png" class="maxGif" alt="image of left controller in action">
+                    <div class="sideKeyInfo2">
+                        <h2>Move left lever to angle spaceship to the left</h2>
+                        <p>By moving the left lever, the spaceship will angle to the left and its speed will also increase.</p>
+                    </div>
+                </div>
+                <div class="empty"></div>
+                <div class="sideKey sideKey3">
+                    <img src="images/spaceGame/spaceGame_rightLever.png" class="maxGif" alt="image of right controller in action">
+                    <div class="sideKeyInfo2">
+                        <h2>Move right lever to angle spaceship to the right</h2>
+                        <p>By moving the right lever, the spaceship will angle to the right and its speed will also increase.
+                        </p>
+                    </div>
+                </div>
+                <div class="empty"></div>
+                <div class="sideKey sideKey2 sideKey3">
+                    <img src="images/spaceGame/spaceGame_starCollection.png" class="maxGif" alt="image of star collection">
+                    <div class="sideKeyInfo">
+                        <h2>Collects stars</h2>
+                        <p>Collect as many stars as you can to gain points!</p>
+                    </div>
+                </div>
+                <div class="empty"></div>
+                <div class="sideKey sideKey3">
+                    <img src="images/spaceGame/spaceGame_rockCollision.gif" class="maxGif" alt="spaceship shooting projectiles at rock">
+                    <div class="sideKeyInfo2">
+                        <h2>Shoot and avoid rocks</h2>
+                        <p>Avoid rocks or shoot any rocks in your path by pressing the button.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="info">
+                <div class="stage"> <p>REFLECTION</p> </div>
+                <div class="infoSub">
+                    <h2>Takeaways</h2>
+                    <div class="takeaways">
+                        <p><strong>Wiring is painful. </strong> The main challenge I faced 
+                            in building the controller was with the wiring. With multiple 
+                            sensors and components, there were a bunch of wires involved.
+                            Occasionally, the wires would come undone, especially when the 
+                            controller was moved. 
+                            </p>
+                        <p><strong>It was nice implementing haptic feedback.</strong> My favourite part 
+                            about the controller was implementing the haptic feedback through vibration. 
+                            It was fun to come up with ways of how we could immerse the players in our game. </p>
+                        <p><strong>Inspired to explore more Arduino.</strong> I really enjoyed exploring how the 
+                            physical world can be connected to the virtual world. It was also nice to see what 
+                            can be done with Arduino. I’m now inspired to tackle Arduino projects in my personal 
+                            time!</p>
+                    </div>
+                </div>
+
+                <div class="infoSub">
+                    <h2>Next Steps</h2>
+                    <p><strong>Go wireless.</strong>
+                        Since I struggled a bit with wires with this project, I've decided that for 
+                        future projects involving movement and numerous components, I want to try wireless 
+                        solutions. Exploring things like PCB layouts and other wireless options seems more 
+                        efficient and less tangled up. 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="moreProjects">
+        <div class="moreProjectsItems">
+            <hr>
+            <h2>More Projects</h2>
+            <div class="moreProjectsImages">
+                <a class="heroImgLink" href="movementgame.html">
+                    <img src="images/movementGame/movementGame_heroPage.png" alt="memory movement game mockup">
+                </a>
+                <a class="heroImgLink" href="imageProcessor.html">
+                    <img src="images/imageProcessor/ImageProcessor_heroPage.png" alt="imag processor mockup">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footerItems">
+            
+            <!--contact and social information-->
+            <div class="socialInfo">
+                <h2>Let's get in touch!</h2>
+                <a id="email" href = "mailto: amina.ottawa@gmail.com">amina.ottawa@gmail.com</a>
+                <div class="iconLinks">
+                    <a href="https://github.com/acce8711" target="_blank"><img src="images/gitHubLogo.png" class="socialIcon" alt="icon of the GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank"><img src="images/linkedinLogo.png" class="socialIcon" alt="icon of the Linkedin logo"></a>
+                </div>
+            </div>
+
+            <!--copyright information-->
+            <div class="copyrightInfo">
+                <p>© Amina Al-Helali</p>
+                <p>Website developed and designed by Amina Al-Helali</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!--linking javascript files-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

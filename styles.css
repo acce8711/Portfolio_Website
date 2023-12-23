@@ -199,6 +199,26 @@ nav {
 .empty {
     height: 70px;
 }
+
+
+/*sub nav*/
+
+.subNav {
+    display: flex;
+    gap: 50px;
+}
+
+.subNavItem {
+    color: #ABABAB;
+    font-weight: 400;
+}
+
+.selected {
+    color: #000000;
+}
+
+
+
 /*Individual piece styling*/
 
 .pieceItem
