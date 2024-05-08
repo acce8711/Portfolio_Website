@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette Dock</title>
+
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation section-->
+    <nav class="topNav">
+        <div class="navItems">
+            <div class="homePageLink">
+                <a href="index.html">Amina Al-Helali</a>
+            </div>
+            <button aria-controls="otherLinks" aria-expanded="false" class="hamburger" id="hamburger">
+                <span></span>
+            </button>
+
+            <ul class="otherLinks" id="otherLinks">
+                <li><a href="index.html#software">Portfolio</a></li>
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="images/AminaAl-Helali_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" class="navIcon"/></svg>
+                </a></li>
+                <li><a href="https://github.com/acce8711" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" class="navIcon"/></svg>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="description">
+
+        <div class="descriptionItems">
+
+            <img src="images/paletteDock/paletteDock_hero.png" alt="placeholder image" id="heroImage">
+
+            <div class="pieceInfo">
+                <div class="team">
+                    <h3>Team</h3>
+                    <p>Solo Project</p>
+                </div>
+                <div class="role">
+                    <h3>My Role</h3>
+                    <p>Front end developer</p>
+                    <p>UI Designer</p>
+                </div>
+                <div class="tools">
+                    <h3>Tools</h3>
+                    <p>React</p>
+                    <p>HTML/CSS/JavaScript </p>
+                    <p>Firebase</p>
+                    <p><a class="regLink" href="https://github.com/acce8711/Palette-Dock" target=”_blank”><u>Github</u></a></p>
+                    <p>Figma</p>
+                </div>
+                <div class="timeline">
+                    <h3>Timeline</h3>
+                    <p>3 months (Winter 2024)</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>OVERVIEW</p> </div>
+                <h2>Concept</h2>
+                <p>Overview
+                    I developed Palette Dock as a personal project to get more familiar with
+                    REST APIs. It is designed for designers to share and get inspired by 
+                    other colour palettes. Made to simplify colour palette creation 
+                    thanks to features such as drag and drop and AI generated palette 
+                    names. Users can explore palettes created by others, 
+                    vote for their favourites, sort them, filter by colour and randomize!  </p>
+                    <div class="info finalWebsite">
+                        <a href="https://palettedock.netlify.app/" target="_blank" id="finalWebsiteLink"> 
+                            <h3 class="learnMore">View Final Website</h3>
+                            <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807612 21.9792 0.807612 21.3934 1.3934C20.8076 1.97918 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5H32V10.5H0V13.5Z" fill="black" id="horizontalArrowColor"/>
+                                </svg>
+                        </a>
+                        <a href="https://palettedock.netlify.app/" target="_blank"><img class="hover" src="images/paletteDock/paletteDock_click.png" alt="image of study space dashboard"></a>
+                    </div>
+            </div>
+
+            
+
+            <div class="info">
+                <div class="stage"> <p>KEY FEATURES</p> </div>
+                <div class="sideKey sideKey2 sideKey3">
+                    <img src="images/paletteDock/PaletteDock_sharePalette.gif" class="maxGif" alt="">
+                    <div class="sideKeyInfo2">
+                        <h2>Create and share palettes</h2>
+                        <p>Create palettes of up to five colours and share them with others.</p>
+                    </div>
+                </div>
+                <div class="sideKey sideKey3">
+                    <img src="images/paletteDock/PaletteDock_DND.gif" class="maxGif" alt="">
+                    <div class="sideKeyInfo2">
+                        <h2>Drag and drop while creating the palette</h2>
+                        <p>Rearrange your palette by dragging and dropping colours to get the perfect combination.
+                        </p>
+                    </div>
+                </div>
+                <div class="sideKey sideKey2 sideKey3">
+                    <img src="images/paletteDock/PaletteDock_AINames.gif" class="maxGif" alt="">
+                    <div class="sideKeyInfo">
+                        <h2>AI generated names to fit the palette</h2>
+                        <p>Having a hard time coming up with a name? Auto-generate names that are automatically tailored to best describe your palette.</p>
+                    </div>
+                </div>
+                <div class="sideKey sideKey3">
+                    <img src="images/paletteDock/PaletteDock_ViewAll.gif" class="maxGif" alt="">
+                    <div class="sideKeyInfo">
+                        <h2>View and interact with other shared palettes</h2>
+                        <p>View palettes created by others, then vote, sort and filter them.</p>
+                    </div>
+                </div>
+                <div class="sideKey sideKey2 sideKey3">
+                    <img src="images/paletteDock/PaletteDock_Randomize.gif" class="maxGif" alt="">
+                    <div class="sideKeyInfo">
+                        <h2>Randomize</h2>
+                        <p>Don’t know which palette to choose? Click the randomize button to get a random one from the list.</p>
+                    </div>
+                </div>
+            </div>
+    
+                    
+
+
+            <div class="info">
+                <div class="stage"> <p>COMPETATIVE ANALYSIS</p> </div>
+                <h2>Slow user experience </h2>
+                <p>After analysing similar web-apps that allow users to share and view palettes, I noticed the following patterns that slowed down the user experience:</p>
+                <br>
+                <div class="listedText">
+                    <p>1. Palette creation and interaction was blocked by login walls with no guest option.</p>
+                    <p>2. The navigation between palette creation vs palette viewing was difficult due to it being concealed.</p>
+                    <p>3. The process for creating a palette contained  many steps. </p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>DESIGN</p> </div>
+                <h2>Make it speedy</h2>
+                <p>Looking at the findings from the competitive analysis, I saw an opportunity to create a web app that allows users to create and view palettes with speed. This would be achieved with features such as: 
+                </p>
+                <br>
+                <div class="listedText">
+                    <p>1. Guest interaction without mandatory login. </p>
+                    <p>2. Navigation with tabs for all views visible immediately. </p>
+                    <p>3. Colour creation with minimal steps and tools such as auto generated palette names.</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>WIREFRAMES AND PLAN</p> </div>
+                <h2>Visualising the requirements</h2>
+                <p>With the main features in mind, I created wireframes in Figma for three different views: create, view and randomize.</p>
+                <br/>
+                <img src="images/paletteDock/paletteDock_wireframes.png" alt="">
+                <h2>Planning the architecture </h2>
+                <p>Before beginning the implementation, I outlined the necessary components and their hierarchical relationships in a tree structure. 
+                </p>
+                <br/>
+                <img src="images/paletteDock/paletteDock_tree.png" alt="">
+            </div>
+
+
+            <div class="info">
+                <div class="stage"> <p>TEST AND ITERATE</p> </div>
+                <h2>Challenges</h2>
+                <p>After starting this project, I set it aside and returned to it 3 months later. 
+                    Reviewing it with fresh eyes and getting users to test it helped me 
+                    find three main issues: </p>
+                    <br/>
+                    <div class="twoColumn">
+                        <div class="problem">
+                            <h3>Problem</h3>
+                            <p>The colour picker modal lacked clarity. The selected colour sample was too small, making it difficult to identify the selected colour. Also, it was unclear how to exit the modal.</p>      
+                        </div>
+
+                        <div class="solution">
+                            <h3>Solution</h3>
+                            <p>Implemented a larger colour sample box and included a “done” button for clear modal exit.</p>      
+                        </div>
+                    </div>
+                    <img src="images/paletteDock/paletteDock_change.png" alt="">
+
+                    <br/>
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <div class="twoColumn">
+                        <div class="problem">
+                            <h3>Problem</h3>
+                            <p>Rearranging colours was tedious and time-consuming. Users had to re-select colours if they wanted to rearrange them.</p>      
+                        </div>
+
+                        <div class="solution">
+                            <h3>Solution</h3>
+                            <p>Implemented a drag and drop functionality so users can quickly re-arrange colours.</p>      
+                        </div>
+                    </div>
+
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <div class="twoColumn">
+                        <div class="problem">
+                            <h3>Problem</h3>
+                            <p>I was storing the data on <a class="regLink" href="https://render.com/"><u>render</u></a> which I found out was not data persistent and would delete added data after a few hours. </p>      
+                        </div>
+
+                        <div class="solution">
+                            <h3>Solution</h3>
+                            <p>Explored other solutions and found out that I could use Firestore and still interact with the data using TEST APIs. 
+                            </p>      
+                        </div>
+                    </div>
+
+            </div>
+
+            <div class="info">
+                <div class="stage"> <p>REFLECTION</p> </div>
+                <div class="infoSub">
+                    <h2>Takeaways</h2>
+                    <div class="takeaways">
+                        <p><strong>Became familiar REST APIs.</strong> I achieved my main goal of 
+                            learning about REST APIs and putting them into practice. I utilized a 
+                            Firebase database, Firestore, and communicated with it through HTTP requests, 
+                            including GET, POST, and PATCH.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infoSub">
+                    <h2>Next Steps</h2>
+                    <p><strong>Make it responsive. </strong>
+                        My next step is to make the web app responsive so it's accessible across various devices.
+                    </p>
+                    <br/>
+                    <p><strong>Create a chrome plugin.</strong>
+                        My next step would be making Palette Dock accessible through different forms. One step would be to explore how I can integrate it as a chrome plugin.
+                    </p>
+                    <br/>
+                    <p><strong>Provide user authentication. </strong>
+                        While guests can interact with palettes, it has limitations. 
+                        Offering sign-up would let users save favourites, delete patterns, 
+                        and follow other colour creators. Plus, they could access accounts 
+                        across devices. This would also eliminate the reliance on local storage, 
+                        currently used for vote tracking.
+                    </p>
+                </div>
+            </div>
+
+
+            
+
+
+    </div>
+
+    </section>
+
+    <section class="moreProjects">
+        <div class="moreProjectsItems">
+            <hr>
+            <h2>More Projects</h2>
+            <div class="moreProjectsImages">
+                <a class="heroImgLink" href="EZPZConverterPage.html">
+                    <img src="images/EZPZ/heroEZPZ.png" alt="image of the EZPZ device mockup">
+                </a>
+                <a class="heroImgLink" href="StudySpace.html">
+                    <img src="images/studySpace/studySpace_hero.png" alt="image of Study Space">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footerItems">
+            
+            <!--contact and social information-->
+            <div class="socialInfo">
+                <h2>Let's get in touch!</h2>
+                <a id="email" href = "mailto: amina.ottawa@gmail.com">amina.ottawa@gmail.com</a>
+                <div class="iconLinks">
+                    <a href="https://github.com/acce8711" target="_blank"><img src="images/gitHubLogo.png" class="socialIcon" alt="icon of the GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/AminaAl-Helali/" target="_blank"><img src="images/linkedinLogo.png" class="socialIcon" alt="icon of the Linkedin logo"></a>
+                </div>
+            </div>
+
+            <!--copyright information-->
+            <div class="copyrightInfo">
+                <p>© Amina Al-Helali</p>
+                <p>Website developed and designed by Amina Al-Helali</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!--linking javascript files-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
