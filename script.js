@@ -13,8 +13,9 @@ hamburger.addEventListener("click", () => {
 
 /*typing header text on page load*/
 var typed = new Typed(".autoType", {
-    strings: ["Interactive Multimedia and Design Student."],
-    typeSpeed: 75,
+    //strings: ["Interactive Multimedia and Design Student."],
+    strings: ["Information Technology Student."],
+    typeSpeed: 50,
     loop: false
 });
 
